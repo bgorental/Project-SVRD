@@ -2,7 +2,7 @@
 @author Bharath Gorental
 @email bgorental@okkular.io
 @create date 2021-06-28 06:49:04
-@modify date 2021-06-28 06:49:33
+@modify date 2021-06-29 00:19:33
 @desc [description]
 -->
 <!DOCTYPE html>
@@ -313,7 +313,14 @@
   </head>
   <body>
     <!-- navbar Section -->
-    <header>
+    <header
+    style="
+        position: fixed;
+        top: 0;
+        overflow: hidden;
+        width: 100%;
+        z-index: 10;
+      ">
       <a
         class="logo"
         href="file:///C:/Users/Balug/AppData/Local/atom/app-1.45.0/SVRD/SVRD.html#"
@@ -326,7 +333,8 @@
         <ul class="nav__links" style="transform: translateY(.5rem);">
           <li><a href="index.html">Home</a></li>
           <li><a href="index.html#about">About</a></li>
-          <li><a href="rehabilation.html">Events</a></li>
+          <li><a class="close" href="rehabilation.html">IRCA</a></li>
+          <li><a class="close" href="oldage.html">OAH</a></li>
         </ul>
       </nav>
       <a class="cta" href="index.html#media">Contact</a>
@@ -337,7 +345,8 @@
       <div class="overlay__content">
         <a class="close" href="index.html">Home</a>
         <a class="close" href="index.html#about">About</a>
-        <a class="close" href="rehabilation.html">Events</a>
+        <a class="close" href="rehabilation.html">IRCA</a>
+        <a class="close" href="oldage.html">OAH</a>
         <a
           class="cta close"
           href="#media"
@@ -348,7 +357,7 @@
     </div>
 
     <!-- Aims and Objectives -->
-    <h1 class="title" style="color: #2e1d00; font-size: 2em; margin-top: 60px">
+    <h1 class="title" style="color: #2e1d00; font-size: 2em; margin-top: 120px">
       Aims and Objectives
     </h1>
     <ul
@@ -1309,7 +1318,7 @@
 
 <img class="border" src="icons/hr2.png" alt="" />
 <h1 class="title" style="color: #2e1d00; font-size: 1.8em" ;>
-  Engagements
+Visitors
 </h1>
 <div class="swiper-container">
   <div class="swiper-wrapper">
@@ -1389,102 +1398,11 @@
   <div class="swiper-pagination"></div>
 </div>
 
-    <img class="border" src="icons/hr2.png" alt="" />
-    <h1
-      class="title"
-      style="color: #2e1d00; font-size: 1.8em; text-transform: uppercase"
-    >
-      Shri Vaishnavi Rural Development Society<br /><br />Old Age Home
-    </h1>
-    <div class="swiper-container">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <img
-
-            src="images 2/old4.jpg"
-            alt="Very Cool Guy"
-          />
-          <h3>Old Age Home</h3>
-          <p class="cardpara">
-            Team work and mass interaction at our Old Age Home
-          </p>
-        </div>
-        <div class="swiper-slide">
-          <img
-
-            src="images 2/old2.jpg"
-            alt="Very Cool Guy"
-          />
-          <h3>Old Age Home</h3>
-          <p class="cardpara">
-            Seminars conducted for elderly ladies to boost their moral and
-            educate them
-          </p>
-        </div>
-        <div class="swiper-slide">
-          <img
-
-            src="images 2/old3.jpg"
-            alt="Very Cool Guy"
-          />
-          <h3>Old Age Home</h3>
-          <p class="cardpara">
-            Encouraging friendly and supportive environment aimed at promoting
-            fraternity amongst these senior citizens
-          </p>
-        </div>
-        <div class="swiper-slide">
-          <img
-            src="images 2/old1.jpg"
-            alt="Very Cool Guy"
-          />
-          <h3>Old Age Home</h3>
-          <p class="cardpara">
-            Well furnished accommodations for the elderly, rendering them the
-            necessary comforts
-          </p>
-        </div>
-        <div class="swiper-slide">
-          <img
-
-            src="images 2/old5.jpg"
-            alt="Very Cool Guy"
-          />
-          <h3>Old Age Home</h3>
-          <p class="cardpara">
-            Providing balanced and hygienic diet to all the admitted people
-          </p>
-        </div>
-        <div class="swiper-slide">
-          <img
-
-            src="images 2/old6.jpg"
-            alt="Very Cool Guy"
-          />
-          <h3>Old Age Home</h3>
-          <p class="cardpara">
-            Fostering the spirit of service by serving those elderly who are not
-            in a position to help themselves
-          </p>
-        </div>
-        <div class="swiper-slide">
-          <img
-            src="images 2/old7.jpg"
-            alt="Very Cool Guy"
-          />
-          <h3>Old Age Home</h3>
-          <p class="cardpara">
-            Serving food in sufficient quantity and also instilling the emotion
-            on oneness by sharing the food they all eat
-          </p>
-        </div>
-      </div>
-      <!-- Add Pagination -->
-      <div class="swiper-pagination"></div>
-    </div>
+    <!-- <img class="border" src="icons/hr2.png" alt="" />
+   
 
 
-
+ -->
 
 <img class="border" src="icons/hr2.png" alt="" />
 
@@ -1550,6 +1468,7 @@
     <p style="transform: translate(23rem, -.8rem);">&mdash; Beneficiary</p>
 </ul>
 
+<img class="border" src="icons/hr2.png" alt="" />
     <section id="media">
       <div class="bottom-container" style="text-align: center; margin-top: 6rem;">
         <h2 style="color: #ca8d33; padding-bottom: 40px">Contact Us</h2>
