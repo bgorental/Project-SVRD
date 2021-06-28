@@ -1,3 +1,10 @@
+/**
+ * @author Bharath Gorental
+ * @email bgorental@okkular.io
+ * @create date 2021-06-28 06:49:45
+ * @modify date 2021-06-28 06:49:47
+ * @desc [description]
+ */
 // const doc = document;
 // const menuOpen = doc.querySelector(".menu");
 // const menuClose = doc.querySelector(".close");
