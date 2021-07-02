@@ -2,7 +2,7 @@
  * @author Bharath Gorental
  * @email bgorental@okkular.io
  * @create date 2021-06-28 06:49:30
- * @modify date 2021-06-29 00:19:34
+ * @modify date 2021-07-03 01:45:19
  * @desc [description]
  */
 li{
@@ -13,11 +13,47 @@ ul div{
     display: inline-flex;
 }
 
-ul div img{
-    width:50px;
-    height: 50px; 
-    margin-right: 1rem;
+/* ul li{
+    font-size: 1.3rem;
+    text-align: justify;
+} */
+
+.aims{
+    width: 70% !important;
+    line-height: 40px !important;
+    margin: 20px auto 20px !important;
+    font-size: 1.3rem !important;
+    text-align: justify !important;
+    color: #2e1d00 !important;
+    font-family: Verdana, sans-serif !important;
+    list-style: none !important;
 }
+
+.sub-aims{
+    width: 60%;
+    line-height: 40px;
+    margin: 20px auto 20px 0rem;
+    font-size: 1.2rem;
+    text-align: justify;
+    color: #2e1d00;
+    font-family: Verdana, sans-serif;
+    list-style: none;
+    transform: translateX(18rem);
+}
+
+
+.main__arrow{
+    width:50px !important;
+    height: 50px !important; 
+    margin-right: 1rem !important;
+}
+
+.title{
+    color: #2e1d00;
+     font-size: 2em;
+      margin-top: 120px !important;
+}
+
 
 p{
     width: 70%;
@@ -40,3 +76,310 @@ span {
     width: 50px;
     height: 50px;
   }
+
+
+.drugsection h1{
+    color: #2e1d00; font-size: 2rem; margin-top: 40px
+}
+
+.drugsection p{
+    font-size: 1.3rem;
+}
+
+.supportprg{
+    width: 80%;
+    line-height: 40px;
+    margin: 20px auto 20px 0rem;
+    font-size: 1.2rem;
+    text-align: justify;
+    color: #2e1d00;
+    font-family: Verdana, sans-serif;
+    list-style: none;
+}
+
+.training{
+    width: 80%;
+    line-height: 40px;
+    margin: 20px auto 20px 0rem;
+    font-size: 1.2rem;
+    text-align: justify;
+    color: #2e1d00;
+    font-family: Verdana, sans-serif;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+  @media only screen and (max-width: 1000px) {
+    .sub-aims{
+        width: 60%;
+        line-height: 40px;
+        margin: 20px auto 20px 0rem;
+        font-size: .8rem;
+        text-align: justify;
+        color: #2e1d00;
+        font-family: Verdana, sans-serif;
+        list-style: none;
+        transform: translateX(12rem) !important;
+    }
+
+    .supportprg{
+        text-align: start !important;
+    }
+    
+    .training{
+        width: 80%;
+        line-height: 40px;
+        margin: 20px auto 20px 0rem;
+        font-size: .8rem;
+        text-align: start;
+        color: #2e1d00;
+        font-family: Verdana, sans-serif;
+        list-style: none;
+    }
+
+    .training li{
+      margin-right: 0 !important;
+    }
+
+    .userfeed{
+        transform: translateX(15rem) !important;
+    }
+    
+  }
+
+  @media only screen and (max-width: 800px) {
+    .main__arrow{
+        width:30px !important;
+        height: 30px !important; 
+        margin-right: 1rem !important;
+    }
+
+    .menu{
+        width: 20% !important;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .userfeed{
+        transform: translateX(5rem) !important;
+        text-align: start;
+    }
+
+    .sub-aims{
+        line-height: 30px;
+        font-size: .8rem;
+        text-align: justify;
+        color: #2e1d00;
+        font-family: Verdana, sans-serif;
+        list-style: none;
+        transform: translateX(8rem) !important;
+    }
+
+  }
+
+  @media only screen and (max-width: 600px) {
+      .menu{
+          width: 15%;
+      }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .main__arrow{
+        width:20px !important;
+        height: 20px !important; 
+        margin-right: .5rem !important;
+        margin-top: .5rem;
+    }
+
+    .title{
+        color: #2e1d00;
+        font-size: 1.2em;
+        margin-top: 40px !important;
+    }
+
+    .aims{
+        width: 70% !important;
+        line-height: 40px !important;
+        margin: 20px auto 20px !important;
+        font-size: 1rem !important;
+        text-align: start !important;
+    }
+
+    .sub-aims{
+        text-align: justify;
+        transform: translateX(6rem) !important;
+    }
+
+    .sub-aims img{
+        width: 15px !important;
+        height: 15px !important;
+        margin-right: 2px !important;
+    }
+
+    .sub-aims div li{
+        transform: translateY(-7.9px) !important;
+    }
+
+    .drugsection h1, .drugsection h2, .drugsection h3{
+        font-size: 1.2rem !important; 
+    }
+    
+    .drugsection h3{
+        text-align: start;
+    }
+
+    .drugsection p, .drugsection li{
+        font-size: 1rem !important;
+        line-height: 30px !important;
+    }
+
+    .drugsection img{
+        width: 15px !important;
+        height: 15px !important;
+        margin-right: 2px !important;
+    }
+
+    .treatmentsec h3{
+        font-size: 1.2rem !important;
+        text-align: start;
+        line-height: 30px !important;
+    }
+
+    .treatmentsec li{
+        font-size: 1rem !important;
+        line-height: 30px !important;
+    }
+
+    .communityserve h1{
+        font-size: 1.2rem !important;
+    }
+
+    .communityserve p{
+        font-size: 1rem !important;
+        line-height: 30px !important;
+    }
+
+    .communityserve li{
+        font-size: 1rem !important;
+    }
+
+    .post-treat h3{
+        font-size: 1.2rem !important;
+        text-align: start;
+        line-height: 30px !important;
+    }
+
+    .post-treat li{
+        font-size: 1rem !important;
+        text-align: justify;
+        line-height: 30px !important;
+    }
+
+    .Opinion h1{
+        font-size: 1.2rem !important;
+    }
+
+    .Opinion li{
+        font-size: 1.1rem !important;
+        transform: translate(3rem, -.3rem) !important;
+    }
+
+    .Opinion p{
+        font-size: 1rem !important;
+        transform: translateX(-.5rem) !important;
+        line-height: 30px;
+    }
+
+    .Opinion .userfeed{
+        transform: translate(3.2rem, -3rem) !important;
+        width: 80% !important;
+        font-size: .9rem !important;
+    }
+
+    .supportprg, .communityserve{
+        width: 100% !important;
+    }
+
+    .training{
+        width: 100%;
+    }
+
+    .training li{
+        text-align: start;
+        font-size: .9rem;
+    }
+  }
+
+  @media only screen and (max-width: 380px) {
+    .menu{
+        width: 30% !important;
+        height: 40px !important;
+        padding: 0 !important;
+    }
+
+    .sub-aims{
+        text-align: start;
+        transform: translateX(5rem) !important;
+    }
+
+    .sub-aims img{
+        width: 15px !important; 
+        height:15px !important;
+    }
+
+    .communityserve p{
+        font-size: 1rem !important;
+        line-height: 30px !important;
+    }
+
+    .communityserve li{
+        font-size: 1rem !important;
+        text-align: start;
+        line-height: 30px !important;
+    }
+    
+    .supportprg img{
+        width: 15px !important;
+        height: 15px !important;
+        margin-right: 2px !important;
+    }
+    
+    .supportprg li{
+        font-size: 1rem !important;
+        text-align: start !important;
+        line-height: 30px !important;
+    }
+
+    .training li{
+        text-align: start;
+        font-size: .9rem;
+    }
+}

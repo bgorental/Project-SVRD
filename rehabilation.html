@@ -2,7 +2,7 @@
 @author Bharath Gorental
 @email bgorental@okkular.io
 @create date 2021-06-28 06:49:04
-@modify date 2021-06-29 00:19:33
+@modify date 2021-07-03 01:41:59
 @desc [description]
 -->
 <!DOCTYPE html>
@@ -298,6 +298,14 @@
         }
       }
 
+      /* @media only screen and (max-width: 500px) {
+        header h1{
+          font-size: 1rem !important;
+        }
+      } */
+
+   
+
       .missions {
         font-size: 1.4rem;
       }
@@ -355,26 +363,18 @@
         >
       </div>
     </div>
-
+    <h1 class="title ongoing-prj__h" style="color: #2e1d00 !important; font-size: 2.5em; margin-top: 170px !important; line-height: 3rem; text-shadow: 1px 1px #ca8d33 !important;">
+      SRI VAISHNAVI INTEGRATED REHABILITATION <br> CENTER FOR ADDICTS
+    </h1>
     <!-- Aims and Objectives -->
-    <h1 class="title" style="color: #2e1d00; font-size: 2em; margin-top: 120px">
+    <h1 class="title">
       Aims and Objectives
     </h1>
     <ul
-      class="example"
-      style="
-        width: 70%;
-        line-height: 40px;
-        margin: 20px auto 20px;
-        font-size: 1.3rem;
-        text-align: justify;
-        color: #2e1d00;
-        font-family: Verdana, sans-serif;
-        list-style: none;
-      "
+      class="example aims"
     >
       <div>
-        <img src="icons/arrow.png" alt="" />
+        <img class="main__arrow" src="icons/arrow.png" alt="" />
         <li>
           To create awareness and educate people about the ill-effects of
           alcoholism and substance abuse on the individual, the family, the
@@ -382,7 +382,7 @@
         </li>
       </div>
       <div>
-        <img src="icons/arrow.png" alt="" />
+        <img class="main__arrow" src="icons/arrow.png" alt="" />
         <li>
           To provide for the whole range of community based services for the
           identification, motivation, counseling, de addiction, after care and
@@ -391,21 +391,21 @@
         </li>
       </div>
       <div>
-        <img src="icons/arrow.png" alt="" />
+        <img class="main__arrow" src="icons/arrow.png" alt="" />
         <li>
           To alleviate the consequences of drug and alcohol dependence amongst
           the individual, the family and society at large
         </li>
       </div>
       <div>
-        <img src="icons/arrow.png" alt="" />
+        <img class="main__arrow" src="icons/arrow.png" alt="" />
         <li>
           To facilitate research, training, documentation and collection of
           relevant information to strengthen the above mentioned objectives
         </li>
       </div>
       <div>
-        <img src="icons/arrow.png" alt="" />
+        <img class="main__arrow" src="icons/arrow.png" alt="" />
         <li>
           To support other activities which are in consonance with the mandate
           of the Ministry of Social Justice & Empowerment in this field
@@ -414,18 +414,7 @@
     </ul>
 
     <div style="text-align: start">
-      <ul
-        style="
-          width: 60%;
-          line-height: 40px;
-          margin: 20px auto 20px 0rem;
-          font-size: 1.2rem;
-          text-align: justify;
-          color: #2e1d00;
-          font-family: Verdana, sans-serif;
-          list-style: none;
-          transform: translateX(18rem);
-        "
+      <ul class="sub-aims"
       >
         <h3 style="margin-bottom: 1.5rem">Target Groups</h3>
         <div>
@@ -480,24 +469,27 @@
       </ul>
     </div>
     <img class="border" src="icons/hr2.png" alt="" />
-    <h1 class="title" style="color: #2e1d00; font-size: 2rem; margin-top: 40px">
-      Drug addiction
-    </h1>
-    <p style="font-size: 1.3rem">
-      Those who are subjected to this verse believe that it can only function
-      naturally if consumed, and if a person is constantly craving for drugs on
-      a daily basis, they are anxious for it and rely on the fact that it is
-      impossible to live without it. Substance abuse can lead to serious
-      emotional, physical and social relationship problems. You are in the
-      vortex of such an addiction. However, getting out of it is not easy.
-    </p>
-    <p style="margin-bottom: 3rem; font-size: 1.3rem">
-      Most of us think that drugs are a mind-blowing, moody device, a chemical
-      or drug that alters the human brain's Arya system. Drugs, such as coffee,
-      alcohol, tobacco, prolonged drug use, artificial devices, etc., can be
-      called drugs.
-    </p>
-    <div>
+    <div class="drugsection">
+      <h1 class="title">
+        Drug addiction
+      </h1>
+      <p>
+        Those who are subjected to this verse believe that it can only function
+        naturally if consumed, and if a person is constantly craving for drugs on
+        a daily basis, they are anxious for it and rely on the fact that it is
+        impossible to live without it. Substance abuse can lead to serious
+        emotional, physical and social relationship problems. You are in the
+        vortex of such an addiction. However, getting out of it is not easy.
+      </p>
+      <p style="margin-bottom: 3rem;">
+        Most of us think that drugs are a mind-blowing, moody device, a chemical
+        or drug that alters the human brain's Arya system. Drugs, such as coffee,
+        alcohol, tobacco, prolonged drug use, artificial devices, etc., can be
+        called drugs.
+      </p>
+    </div>
+    
+    <div class="drugsection">
       <ul
         class="example"
         style="
@@ -547,7 +539,7 @@
       </ul>
     </div>
     <img class="border" src="icons/hr2.png" alt="" />
-    <div>
+    <div class="drugsection">
       <h1
         class="title"
         style="color: #2e1d00; font-size: 2em; margin-top: 40px"
@@ -576,7 +568,7 @@
     </div>
 
     <ul
-      class="example"
+      class="example drugsection" 
       style="
         width: 70%;
         line-height: 40px;
@@ -655,7 +647,7 @@
 
     <div>
       <ul
-        class="example"
+        class="example treatmentsec"
         style="
           width: 70%;
           line-height: 40px;
@@ -952,7 +944,7 @@
     <img class="border" src="icons/hr2.png" alt="" />
 
 
-    <div>
+    <div class="communityserve">
     <h1 class="title" style="color: #2e1d00; font-size: 2em; margin-top: 30px">
       Community services
     </h1>
@@ -971,56 +963,56 @@
       "
     >
     <div>
-      <img src="icons/arrow.png" alt="" />
+      <img class="main__arrow" src="icons/arrow.png" alt="" />
       <li>
         World Tobacco Day etc.
       </li>
     </div>
     
       <div>
-        <img src="icons/arrow.png" alt="" />
+        <img class="main__arrow" src="icons/arrow.png" alt="" />
         <li>
           Awareness Programs (Distribution of Letters, Organizing Discussions in    Communities, Awareness through Street Dramas).
         </li>
       </div>
       <div>
-        <img src="icons/arrow.png" alt="" />
+        <img class="main__arrow" src="icons/arrow.png" alt="" />
         <li>
           Conduct seminars and seminars in school colleges.
         </li>
       </div>
       <div>
-        <img src="icons/arrow.png" alt="" />
+        <img class="main__arrow" src="icons/arrow.png" alt="" />
         <li>
           Celebrate drug paraphernalia, (International anti-narcotics day).
         </li>
       </div>
       <div>
-        <img src="icons/arrow.png" alt="" />
+        <img class="main__arrow" src="icons/arrow.png" alt="" />
         <li>
          Conducting surveys on drugs at the community level.
         </li>
       </div>
       <div>
-        <img src="icons/arrow.png" alt="" />
+        <img class="main__arrow" src="icons/arrow.png" alt="" />
         <li>
           Identify areas of risk of drug addiction risk through surveys.
         </li>
       </div>
       <div>
-        <img src="icons/arrow.png" alt="" />
+        <img class="main__arrow" src="icons/arrow.png" alt="" />
         <li>
           Promoting treatment for victims of addiction.
         </li>
       </div>
       <div>
-        <img src="icons/arrow.png" alt="" />
+        <img class="main__arrow" src="icons/arrow.png" alt="" />
         <li>
          Eliminating superstitious beliefs in the community about addiction. 
         </li>
       </div>
       <div>
-        <img src="icons/arrow.png" alt="" />
+        <img class="main__arrow" src="icons/arrow.png" alt="" />
         <li>
           Health Checkups on Addiction.
         </li>
@@ -1030,7 +1022,7 @@
 
 
 
-<div>
+<div class="post-treat">
   <ul
     class="example"
     style="
@@ -1071,17 +1063,7 @@
     <li style="margin-bottom: 30px;">
       The role of supported programs is very important in order to be successful in every area.  Support programs run by addiction recovery centres include: 
 
-        <ul
-          style="
-            width: 80%;
-            line-height: 40px;
-            margin: 20px auto 20px 0rem;
-            font-size: 1.2rem;
-            text-align: justify;
-            color: #2e1d00;
-            font-family: Verdana, sans-serif;
-            list-style: none;
-          "
+        <ul class="supportprg"
         >
           <div>
             <img
@@ -1112,7 +1094,6 @@
             <li style="transform: translateY(-8px)">
               Conduct Rehabilitation Control Programs, Create Addiction Free Groups through 
                 Awareness program.
-
             </li>
           </div>
           <div>
@@ -1134,9 +1115,8 @@
             <li style="transform: translateY(-8px)">Creating employment for addicts with the co-operation of various organizations.</li>
           </div>
         </ul>
-
-
     </li>
+
     <h3 style="font-size: 1.4rem; margin-bottom: 20px">
       Trainings
     </h3>
@@ -1144,17 +1124,8 @@
       Training is a basic concept in human resource development.  It is a tool to develop specific skills to the desired standard through instruction and practice. It is an activity that helps the person to work properly, effectively, and conscientiously, and to enhance his knowledge and skills.  Namely, vocational skills training, training on health hygiene,
     </li>
 
-    <ul
-    style="
-      width: 80%;
-      line-height: 40px;
-      margin: 20px auto 20px 0rem;
-      font-size: 1.2rem;
-      text-align: justify;
-      color: #2e1d00;
-      font-family: Verdana, sans-serif;
-      list-style: none;
-    "
+    <ul class="training"
+     class="sub-aims"
   >
     <div>
       <img
@@ -1184,7 +1155,6 @@
       />
       <li style="transform: translateY(-8px); margin-right: 16rem;">
         Relapse prevention training.
-
       </li>
     </div>
     <div>
@@ -1278,7 +1248,6 @@
     </div>
     <div class="swiper-slide">
       <img
-  
         src="images 2/pic-4.jpg"
         alt="Very Cool Guy"
       />
@@ -1405,68 +1374,70 @@ Visitors
  -->
 
 <img class="border" src="icons/hr2.png" alt="" />
+<div class="Opinion">
+  <h1 class="title" style="color: #2e1d00; font-size: 2em; margin-top: 40px">
+    Opinion
+  </h1>
+  <ul
+        class="example"
+        style="
+          width: 70%;
+          line-height: 40px;
+          margin: 20px auto 20px;
+          font-size: 1.3rem;
+          text-align: justify;
+          color: #2e1d00;
+          font-family: Verdana, sans-serif;
+          list-style: none;
+        "
+      >
+      <div>
+        <img class="main__arrow" src="icons/arrow.png" alt="" />
+        <li style="font-weight: 600;">
+         Community Opinion
+        </li>
+      </div>
+      <div>
+        <img style="width: 7%;height: 7%; opacity: .18; transform: translateY(1rem);" src="icons/double qoutes.png" alt="">
+        <p style="width:100%; margin-top: 1.6rem; margin-bottom: 2.5rem; transform: translate(-2.7rem, 1rem);">
+          Shri Vaishnavi IRCA Centre has been treating many addicts for the past few years.  The centre has been providing treatment to addicts through various activities throughout the day. Being an auto driver I have seen many people feel good about this centre.  I have been an auto driver for the last 3 years and have taken and registered numerous addicts.  Now they are all   addiction free and living the good life.
+        </p>
+      </div>
+      <p class="userfeed" style="transform: translate(23rem, -.8rem);">&mdash; Chandu Loni ( Auto Driver )</p>
+  
+  
+      <div style="margin-top: 2rem;">
+        <img class="main__arrow" src="icons/arrow.png" alt="" />
+        <li style="font-weight: 600;">
+          Visitors Opinion
+        </li>
+      </div>
+      <div>
+        <img style="width: 7%;height: 7%; opacity: .18; transform: translateY(1rem);" src="icons/double qoutes.png" alt="">
+        <p style="width:100%; margin-top: 1.6rem; margin-bottom: 2.5rem; transform: translate(-2.7rem, 1rem);">
+          I visited the Sri Vaishnavi IRCA Centre on a regular basis, more than 15 people were admitted for treatment.  When I interacted with registered therapists, all therapists spoke positively about the facilities offered at the centre.  The centre was found to offer facilities such as yoga, prayer, pranayama and personal therapy.  And when he spoke to the staff, he felt good about the organization.  The staff here are trained and trained.
+        </p>
+      </div>
+      <p class="userfeed" style="transform: translate(23rem, -.8rem);">&mdash; District Health Officer, Bijapur</p>
+  
+  
+  
+      <div style="margin-top: 2rem;">
+        <img class="main__arrow" src="icons/arrow.png" alt="" />
+        <li style="font-weight: 600;">
+          Clients Opinion 
+        </li>
+      </div>
+      <div>
+        <img style="width: 7%;height: 7%; opacity: .18; transform: translateY(1rem);" src="icons/double qoutes.png" alt="">
+        <p style="width:100%; margin-top: 1.6rem; margin-bottom: 2.5rem; transform: translate(-2.7rem, 1rem);">
+         Mr. Virupakshappa Majjagi was admitted to the inpatient, treatment and addiction center of   the allied holistic addiction center over the last 3 years.  I practically realized many new things in the course of treatment there.  I have been living an addiction free life for the last 5 years.  The main reason for this is the Sri Alliance, which is acting as a livelihood for the addict.  I have enrolled more than 8 addicts to this center in the last 2 years.  Now, 90% percent of them are addiction free.
+        </p>
+      </div>
+      <p style="transform: translate(23rem, -.8rem);" class="userfeed">&mdash; Beneficiary</p>
+  </ul>
+</div>
 
-<h1 class="title" style="color: #2e1d00; font-size: 2em; margin-top: 40px">
-  Opinion
-</h1>
-<ul
-      class="example"
-      style="
-        width: 70%;
-        line-height: 40px;
-        margin: 20px auto 20px;
-        font-size: 1.3rem;
-        text-align: justify;
-        color: #2e1d00;
-        font-family: Verdana, sans-serif;
-        list-style: none;
-      "
-    >
-    <div>
-      <img src="icons/arrow.png" alt="" />
-      <li style="font-weight: 600;">
-       Community Opinion
-      </li>
-    </div>
-    <div>
-      <img style="width: 7%;height: 7%; opacity: .18; transform: translateY(1rem);" src="icons/double qoutes.png" alt="">
-      <p style="width:100%; margin-top: 1.6rem; margin-bottom: 2.5rem; transform: translate(-2.7rem, 1rem);">
-        Shri Vaishnavi IRCA Centre has been treating many addicts for the past few years.  The centre has been providing treatment to addicts through various activities throughout the day. Being an auto driver I have seen many people feel good about this centre.  I have been an auto driver for the last 3 years and have taken and registered numerous addicts.  Now they are all   addiction free and living the good life.
-      </p>
-    </div>
-    <p style="transform: translate(23rem, -.8rem);">&mdash; Chandu Loni ( Auto Driver )</p>
-
-
-    <div style="margin-top: 2rem;">
-      <img src="icons/arrow.png" alt="" />
-      <li style="font-weight: 600;">
-        Visitors Opinion
-      </li>
-    </div>
-    <div>
-      <img style="width: 7%;height: 7%; opacity: .18; transform: translateY(1rem);" src="icons/double qoutes.png" alt="">
-      <p style="width:100%; margin-top: 1.6rem; margin-bottom: 2.5rem; transform: translate(-2.7rem, 1rem);">
-        I visited the Sri Vaishnavi IRCA Centre on a regular basis, more than 15 people were admitted for treatment.  When I interacted with registered therapists, all therapists spoke positively about the facilities offered at the centre.  The centre was found to offer facilities such as yoga, prayer, pranayama and personal therapy.  And when he spoke to the staff, he felt good about the organization.  The staff here are trained and trained.
-      </p>
-    </div>
-    <p style="transform: translate(23rem, -.8rem);">&mdash; District Health Officer, Bijapur</p>
-
-
-
-    <div style="margin-top: 2rem;">
-      <img src="icons/arrow.png" alt="" />
-      <li style="font-weight: 600;">
-        Clients Opinion 
-      </li>
-    </div>
-    <div>
-      <img style="width: 7%;height: 7%; opacity: .18; transform: translateY(1rem);" src="icons/double qoutes.png" alt="">
-      <p style="width:100%; margin-top: 1.6rem; margin-bottom: 2.5rem; transform: translate(-2.7rem, 1rem);">
-       Mr. Virupakshappa Majjagi was admitted to the inpatient, treatment and addiction center of   the allied holistic addiction center over the last 3 years.  I practically realized many new things in the course of treatment there.  I have been living an addiction free life for the last 5 years.  The main reason for this is the Sri Alliance, which is acting as a livelihood for the addict.  I have enrolled more than 8 addicts to this center in the last 2 years.  Now, 90% percent of them are addiction free.
-      </p>
-    </div>
-    <p style="transform: translate(23rem, -.8rem);">&mdash; Beneficiary</p>
-</ul>
 
 <img class="border" src="icons/hr2.png" alt="" />
     <section id="media">

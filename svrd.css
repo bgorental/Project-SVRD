@@ -2,9 +2,61 @@
  * @author Bharath Gorental
  * @email bgorental@okkular.io
  * @create date 2021-06-28 06:49:21
- * @modify date 2021-06-29 00:19:32
+ * @modify date 2021-07-03 02:36:18
  * @desc [description]
  */
+
+ @media only screen and (max-width: 1150px){
+.ongoing-prj__btn1{
+  transform: translateY(-1rem) !important;
+}
+
+.ongoing-prj__btn2{
+  transform: translateY(6rem) !important;
+}
+}
+
+
+
+@media only screen and (max-width: 800px){
+  .cta{
+      width: 20%;
+      text-align: center;
+  }
+
+  .content p{
+    visibility: hidden;
+   }
+
+   .ongoing-prj__h{
+    font-size: 1.7rem !important; color: #cb6828 !important; font-weight: 600; margin-bottom: 2rem; text-shadow: 2px 1px #2e1d00 !important;
+   }
+   
+   .ongoing-prj__p1{
+    font-size: 1.2rem !important; color: #ca8d33; font-weight: 600;text-shadow: 1.5px 1.5px #2e1d00;
+   }
+   
+   .ongoing-prj__btn1{
+    font-size: .7rem !important; transform: translateY(1rem);position: absolute; left:-2%;display: block;
+   }
+   
+   .ongoing-prj__p2{
+    font-size: 1.2rem !important; color: #ca8d33; font-weight: 600; position: absolute; top:200px;text-shadow: 1.5px 1.5px #2e1d00;
+   }
+   
+   .ongoing-prj__btn2{
+    font-size: .7rem !important;position: absolute; left:-2%; transform: translateY(8rem);
+   }
+}
+
+
+
+
+
+
+
+
+
 body{
 text-align: center;
 background: #2e1d00;  /* fallback for old browsers */
@@ -25,6 +77,10 @@ header {
   align-items: center;
   padding: 15px 2%;
   background-color: #2e1d00;
+}
+
+.content{
+  font-size: 2rem;
 }
 
 .logo {
@@ -135,9 +191,60 @@ h1:hover{
 }
 
 
+.ongoing-prj{
+  position: absolute;
+  top:30%;
+  left:10%;
+}
 
+.content p{
+  font-size: 1rem;
+  transform: translateY(4rem);
+}
 
+.ongoing-prj{
+ position: absolute;
+ top:20%;
+ left:10%;
+}
 
+#ongoing-prj__h{
+ font-size: 2.5rem; color: #cb6828 !important; font-weight: 600; margin-bottom: 2rem; text-shadow: 2px 1px #2e1d00 !important;
+}
+
+.ongoing-prj__p1{
+ font-size: 2rem; color: #ca8d33; font-weight: 600;text-shadow: 1.5px 1.5px #2e1d00; animation: animate1 10.5s linear infinite;
+}
+
+@keyframes animate1{
+  0%{
+transform: translateX(60%);
+  }
+  100%{
+transform: translateX(-30%);
+  }
+}
+
+.ongoing-prj__btn1{
+ font-size: 1rem; transform: translateY(1rem);position: absolute; left:-2%;display: block;
+}
+
+.ongoing-prj__p2{
+ font-size: 2rem; color: #ca8d33; font-weight: 600; position: absolute; top:200px;text-shadow: 1.5px 1.5px #2e1d00; animation: animate2 10.5s linear infinite;
+}
+
+@keyframes animate2{
+  0%{
+transform: translateX(100%);
+  }
+  100%{
+transform: translateX(-60%);
+  }
+}
+
+.ongoing-prj__btn2{
+ font-size: 1rem;position: absolute; left:-2%; transform: translateY(8rem);
+}
 
 .skills{
   width:70%;
@@ -272,7 +379,219 @@ padding:40px 0 7px 0;
   .cta {
     display: none;
   }
+
+  .ongoing-prj__btn1{
+    display:block;
+    transform: translateY(2rem) !important;
+  }
+
+  .ongoing-prj__btn2 {
+    display:block;
+    transform: translateY(10rem) !important;
+  }
+
   .menu {
     display: initial;
   }
 }
+
+
+@media only screen and (max-width: 700px) {
+  .ongoing-prj__btn1{
+    display:block;
+    transform: translateY(0rem) !important;
+  }
+
+  .ongoing-prj__btn2 {
+    display:block;
+    transform: translateY(8rem) !important;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .ongoing-prj__btn1{
+    font-size: .4rem !important;
+   }
+ .ongoing-prj__btn2{
+    font-size: .4rem !important;
+   }
+}
+
+@media only screen and (max-width: 500px) {
+  header h1{
+    font-size: 1rem !important;
+  }
+
+  .ongoing-prj__h{
+    font-size: 1.4rem !important; color: #cb6828 !important; font-weight: 600; margin-bottom: 2rem; text-shadow: 2px 1px #2e1d00 !important;
+   }
+   
+   .ongoing-prj__p1{
+    font-size: .8rem !important; color: #ca8d33; font-weight: 600;text-shadow: 1.5px 1.5px #2e1d00;
+   }
+   
+   .ongoing-prj__btn1{
+    font-size: .6rem !important;
+   }
+   
+   .ongoing-prj__p2{
+    font-size: .8rem !important; color: #ca8d33; font-weight: 600; position: absolute; top:200px;text-shadow: 1.5px 1.5px #2e1d00; transform: translateY(-4rem);
+   }
+   
+   .ongoing-prj__btn2{
+    font-size: .6rem !important;
+   }
+}
+
+@media only screen and (max-width: 480px) {
+  .cta{
+    font-size: 80%;
+}
+
+#mobile__menu .cta{
+  width: 50% !important; 
+}
+}
+
+
+@media only screen and (max-width: 420px) {
+  .ongoing-prj{
+    position: absolute;
+    top:5%;
+    left:10%;
+   }
+
+  .cta{
+    font-size: 60%;
+    text-align: center;
+}
+
+.ongoing-prj__h{
+  font-size: .8rem !important;
+ }
+ 
+ .ongoing-prj__p1{
+  font-size: .6rem !important;
+ }
+ 
+ .ongoing-prj__btn1{
+  font-size: .3rem !important;
+  width: 30%;
+  transform: translateY(1rem) !important;
+ }
+ 
+ .ongoing-prj__p2{
+  font-size: .6rem !important;
+  transform: translateY(-5.5rem);
+ }
+ 
+ .ongoing-prj__btn2{
+  font-size: .3rem !important;
+  transform: translateY(5rem) !important;
+  width: 30%;
+ }
+
+
+}
+
+@media only screen and (max-width: 400px) {
+  .cta{
+    font-size: 60%;
+    text-align: center;
+    width: 30%;
+}
+
+.ongoing-prj{
+  position: absolute;
+  top:1%;
+  left:10%;
+ }
+
+.ongoing-prj__h{
+ font-size: 1rem !important;
+}
+
+.ongoing-prj__p1{
+ font-size: .8rem !important;
+ width: 90%;
+}
+
+.ongoing-prj__btn1{
+ font-size: .3rem !important;
+ width: 30%;
+}
+
+.ongoing-prj__p2{
+ font-size: .8rem !important;
+ transform: translateY(-4.2rem);
+}
+
+.ongoing-prj__btn2{
+ font-size: .3rem !important;
+ transform: translateY(4.5rem) !important;
+ width: 30%;
+}
+
+}
+
+@media only screen and (max-width: 380px) {
+
+  .ongoing-prj{
+    position: absolute;
+    top:1%;
+    left:10%;
+   }
+
+  .cta{
+    font-size: 60%;
+    text-align: center;
+}
+
+#mobile__menu .cta{
+  width: 45% !important; 
+}
+}
+
+
+@media only screen and (max-width: 330px) {
+  .cta{
+    font-size: 60%;
+    text-align: center;
+}
+
+.ongoing-prj{
+  position: absolute;
+  top:1%;
+  left:10%;
+ }
+
+.ongoing-prj__h{
+ font-size: .8rem !important;
+}
+
+.ongoing-prj__p1{
+ font-size: .6rem !important;
+ width: 90%;
+}
+
+.ongoing-prj__btn1{
+ font-size: .3rem !important;
+ width: 30%;
+ transform: translateY(0rem) !important;
+}
+
+.ongoing-prj__p2{
+ font-size: .6rem !important;
+ transform: translateY(-5.5rem) !important;
+}
+
+.ongoing-prj__btn2{
+ font-size: .3rem !important;
+ transform: translateY(3.6rem) !important;
+ width: 30%;
+}
+
+}
+
+
+
